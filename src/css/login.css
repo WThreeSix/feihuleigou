@@ -1,0 +1,139 @@
+.content .content_1 .big_tb {
+  width: 327px;
+  height: 352px;
+  border: 2px solid #eedfbb;
+  float: right;
+  margin-top: 47px;
+  margin-right: 177px;
+}
+.content .content_1 .big_tb h3 {
+  display: block;
+  font-size: 12px;
+  line-height: 31px;
+  text-indent: 10px;
+  background: url(../images/register/titleBG.png);
+}
+.content .content_1 .big_tb .small_tb {
+  width: 325px;
+  height: 320px;
+  border: 1px solid #C6002A;
+  background-color: white;
+}
+.content .content_1 .big_tb .small_tb .welcome {
+  width: 304px;
+  height: 30px;
+  border: 1px solid #cccccc;
+  margin: 10px 0px 0px 10px;
+  font-size: 12px;
+  line-height: 30px;
+  color: #666666;
+  text-indent: 10px;
+}
+.content .content_1 .big_tb .small_tb span {
+  margin: 17px 0px 0px 30px;
+  font-size: 12px;
+  color: #666666;
+}
+.content .content_1 .big_tb .small_tb input {
+  width: 220px;
+  height: 22px;
+  border: 1px solid #cccccc;
+  margin-top: 11px;
+}
+.content .content_1 .big_tb .small_tb a {
+  margin: 9px 0px 0px 80px;
+  font-size: 12px;
+  color: #3f70fc;
+  text-decoration: underline;
+}
+.content .content_1 .big_tb .small_tb a:hover {
+  color: red;
+}
+.content .content_1 .big_tb .small_tb .bt {
+  width: 310px;
+  height: 88px;
+  border-top: 1px dashed #CCCCCC;
+  margin-left: 8px;
+  margin-top: 10px;
+}
+.content .content_1 .big_tb .small_tb .bt span {
+  width: 54px;
+  display: block;
+  margin-left: 11px;
+  float: left;
+  margin-top: 10px;
+}
+.content .content_1 .big_tb .small_tb .bt ul {
+  width: 220px;
+  float: right;
+}
+.content .content_1 .big_tb .small_tb .bt ul a {
+  margin: 0px;
+  line-height: 34px;
+  float: left;
+  display: block;
+}
+.content .content_1 .big_tb .small_tb .bt ul li:nth-of-type(1) a:nth-of-type(1) {
+  background: url(../images/register/ico_alipay.gif) no-repeat 0px 10px;
+  text-indent: 20px;
+}
+.content .content_1 .big_tb .small_tb .bt ul li:nth-of-type(1) a:nth-of-type(2) {
+  background: url(../images/register/ico_sina.gif) no-repeat 0px 9px;
+  text-indent: 20px;
+  margin-left: 2px;
+}
+.content .content_1 .big_tb .small_tb .bt ul li:nth-of-type(1) a:nth-of-type(3) {
+  background: url(../images/register/ico_sina.gif) no-repeat 0px 9px;
+  text-indent: 20px;
+  margin-left: 2px;
+}
+.content .content_1 .big_tb .small_tb .bt ul li:nth-of-type(2) a:nth-of-type(1) {
+  background: url(../images/register/ico_renren.gif) no-repeat 0px 9px;
+  text-indent: 25px;
+  margin-left: 2px;
+}
+.content .content_1 .big_tb .small_tb .bt ul li:nth-of-type(2) a:nth-of-type(2) {
+  background: url(../images/register/ico_kaixin.gif) no-repeat 0px 8px;
+  text-indent: 25px;
+  margin-left: 2px;
+}
+.content .content_1 .big_tb .small_tb .bt ul li:nth-of-type(2) a:nth-of-type(3) {
+  background: url(../images/register/ico_163.gif) no-repeat 0px 9px;
+  text-indent: 23px;
+  margin-left: 2px;
+  margin-right: 35px;
+}
+.content .content_1 .big_tb .small_tb .bt ul li:nth-of-type(3) a:nth-of-type(1) {
+  background: url(../images/register/ico_xunlei.gif) no-repeat 0px 9px;
+  text-indent: 25px;
+  margin-left: 2px;
+}
+.content .content_1 .big_tb .small_tb .bt ul li:nth-of-type(3) a:nth-of-type(2) {
+  background: url(../images/register/ico_chinaMobile.jpg) no-repeat 0px 9px;
+  text-indent: 25px;
+  margin-left: 2px;
+}
+.content .content_1 .big_tb .small_tb i {
+  font-style: normal;
+}
+.content .content_1 .big_tb .small_tb i a {
+  margin-left: 17px;
+  display: block;
+  float: left;
+  width: 50px;
+}
+.content .content_1 .big_tb .small_tb .btn {
+  margin-top: 0px;
+  margin-left: 80px;
+  width: 140px;
+  height: 40px;
+  display: block;
+  border-radius: 3px;
+  background: url(../images/register/sitenav.png) no-repeat 0px -60px;
+  float: left;
+}
+.content .content_1 .big_tb .small_tb .btn:hover {
+  background: url(../images/register/sitenav.png) no-repeat 0px -100px;
+}
+
+/*# sourceMappingURL=login.css.map */

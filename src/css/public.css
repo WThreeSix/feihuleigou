@@ -1,0 +1,178 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.head {
+  width: 100%;
+  background: #eeeeee;
+}
+.head .head_1 {
+  width: 984px;
+  height: 28px;
+  margin: 0 auto;
+}
+.head .head_1 p {
+  font-size: 12px;
+  color: #999999;
+  line-height: 28px;
+  margin-left: 17px;
+  float: left;
+}
+.head .head_1 p a {
+  text-decoration: underline;
+  color: dodgerblue;
+}
+.head .head_1 p a:hover {
+  color: red;
+}
+.head .head_1 .right {
+  float: right;
+}
+.head .head_1 .right li {
+  float: left;
+}
+.head .head_1 .right li a {
+  color: #666666;
+  font-size: 12px;
+  line-height: 28px;
+  text-decoration: underline;
+}
+.head .head_1 .right li a:hover {
+  color: blue;
+}
+.head .head_1 .right li:nth-of-type(4) {
+  background: url(../images/register/phone.jpg) no-repeat 16px 8px;
+  padding-left: 30px;
+}
+.head .head_1 .right li:nth-of-type(4) a {
+  text-decoration: none;
+}
+.head .head_1 .right li:nth-of-type(3) {
+  background: url(../images/register/bi1.png) no-repeat 16px 8px;
+}
+.head .head_1 .right li:nth-of-type(3) a {
+  border-left: 1px solid #666666;
+  padding-left: 32px;
+}
+.head .head_1 .right li:nth-of-type(2) {
+  margin-right: 7px;
+  margin-left: 14px;
+}
+.head .head_1 .right li:nth-of-type(1) {
+  position: relative;
+}
+.head .head_1 .right li:nth-of-type(1) a {
+  display: block;
+  float: left;
+  padding-left: 0px;
+  text-indent: 3px;
+}
+.head .head_1 .right li:nth-of-type(1) span {
+  display: block;
+  float: left;
+  width: 10px;
+  height: 10px;
+  margin-left: 6px;
+  margin-top: 11px;
+  background: url(../images/register/sitenav.png) no-repeat;
+}
+.head .head_1 .right li:nth-of-type(1):hover {
+  background-color: #c6002a;
+}
+.head .head_1 .right li:nth-of-type(1):hover span {
+  background: url(../images/register/sitenav.png) no-repeat -12px 0px;
+}
+.head .head_1 .right li:nth-of-type(1):hover div {
+  display: block;
+}
+.head .head_1 .right li:nth-of-type(1):hover a {
+  text-decoration: none;
+}
+.head .head_1 .right li:nth-of-type(1) div {
+  position: absolute;
+  border: 1px solid #c6002a;
+  top: 28px;
+  display: none;
+  background-color: white;
+  z-index: 2;
+}
+.head .head_1 .right li:nth-of-type(1) div em {
+  font-style: normal;
+}
+.head .head_1 .right li:nth-of-type(1) div em a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+.head .head_1 .right li:nth-of-type(1) div em a:hover {
+  text-decoration: underline;
+  background: wheat;
+  color: black;
+}
+
+.content {
+  width: 100%;
+  background: url(../images/register/bg.jpg);
+}
+.content .content_1 {
+  background: url(../images/register/login_bg.jpg);
+  margin: 0 auto;
+  height: 465px;
+  width: 984px;
+}
+.content .content_1 img {
+  float: left;
+}
+
+.bottom {
+  width: 100%;
+}
+.bottom .bottom_1 {
+  width: 984px;
+  margin: 0 auto;
+  border-top: 1px solid #999999;
+}
+.bottom .bottom_1 .bt_bt {
+  margin-top: 25px;
+  float: left;
+}
+.bottom .bottom_1 .bt_bt p {
+  font-size: 11px;
+  line-height: 23px;
+  color: #999999;
+}
+.bottom .bottom_1 .bt_bt p:nth-of-type(1) {
+  font-size: 12px;
+  color: black;
+}
+.bottom .bottom_1 .bt_bt p:nth-of-type(4) {
+  margin-bottom: 23px;
+}
+.bottom .bottom_1 .bt_bt p span {
+  margin-right: 19px;
+  color: blue;
+}
+.bottom .bottom_1 .bt_bt p a {
+  color: #999999;
+}
+.bottom .bottom_1 .bt_bt p a:hover {
+  color: blue;
+}
+.bottom .bottom_1 .govIcon {
+  width: 37px;
+  height: 50px;
+  float: right;
+  margin-top: 25px;
+}
+
+/*# sourceMappingURL=public.css.map */

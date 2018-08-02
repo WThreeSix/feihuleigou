@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>飞虎乐购-登录</title>
+		<link href="images/favicon.ico" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+		
+	</head>
+	<body>
+		<div class="head">
+			<div class="head_1">
+				<p>你好，欢迎来到飞虎乐购！
+					<a href="login.html">安全登录</a> 还没加入我们？
+					<a href="register.html">立即注册</a>
+				</p>
+				<ul class="right">
+					<li>
+						<a href="">我的账户</a><span></span>
+						<div>
+							<em><a href="index.html">账户首页</a></em>
+							<em><a href="#">我的收藏</a></em>
+							<em><a href="#">我的订单</a></em>
+						</div>
+					</li>
+					<li>
+						<a href="#">帮助中心</a>
+					</li>
+					<li>
+						<a href="#">网站体验反馈</a>
+					</li>
+					<li>
+						<a href="#">400 883 6900</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--登录列表-->
+		<div class="content">
+			<div class="content_1">
+				<img src="images/register/login_logo.jpg" alt="" />
+				<div class="big_tb">
+					<h3>用户登录</h3>
+					<form action="php/login.php" class="small_tb" method = "post">
+						<p class="welcome">欢迎您登陆飞虎乐购，享受您的购物之旅。</p>
+						<span>用户名：</span><input type="text" id="user" name="user"/><br/>
+						<span>密&ensp;&ensp;码：</span><input type="password" id="password" name="password"/></br>
+						<a href="">忘记密码？</a>
+						<div class="bt">
+							<span>联合登录:</span>
+							<ul>
+								<li><a href="https://auth.alipay.com/login/express.htm?goto=https%3A%2F%2Fmemberexprod.alipay.com%3A443%2Fauthorize%2FuserAuthQuickLoginAction.htm%3Fe_i_i_d%3D78540134fdb9112f219d946583ec8ee8">支付宝快捷登录</a><a href="">QQ</a><a href="">新浪</a></li>
+								<li><a href="">人人网</a><a href="">开心</a><a href="">网易</a></li>
+								<li><a href="">迅雷</a><a href="">139邮箱</a></li>
+							</ul>
+						</div>
+						<input class="btn" type="submit" value=""></input><i><a href="register.html">免费注册</a></i>
+						
+					</form>
+				</div>
+			</div>			
+		</div>
+		<!--底部-->
+		<div class="bottom">
+			<div class="bottom_1">
+				<div class="bt_bt">
+					<p><span>常见问题</span><span>法律说明</span><span>联系我们</span></p>	
+					<p>增值电信业务经营许可证:<a href="">粤B2-20130551</a> | 网站备案:<a href="">粤ICP备14036938号</a></p>	
+					<p>食品流通许可证：SP4403112014007826 | 食品流通许可证：SP1103021110002595</p>	
+					<p>Copyright &copy; 2009-2018 深圳市理约云信息管理有限公司.All Rights Reserved</p>	
+				</div>
+				<img src="images/govIcon.gif" alt=""class="govIcon" />
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$('#user').blur(function(){
+			if ( !/^([A-z]|_)\w{3,7}$/.test(user.value)){
+				$(".welcome").html("只能输入4-8位英文数字下划线");
+				$(".welcome").css("color","red");
+			}else{
+				$(".welcome").html("用户名合法，请设置密码");
+				$(".welcome").css("color","black");
+			}
+		})
+		$('#password').blur(function(){
+			if ( !/^.{6}$/.test(password.value)){
+				$(".welcome").html("密码必须为六位数");
+				$(".welcome").css("color","red");
+			}else{
+				$(".welcome").html("密码合法，请登录");
+				$(".welcome").css("color","black");
+			}
+		})
+	</script>
+</html>

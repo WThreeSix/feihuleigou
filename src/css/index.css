@@ -1,0 +1,793 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.head {
+  background: #ededed;
+  width: 100%;
+  height: 30px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.head .head_1 {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.head .head_1 p {
+  line-height: 30px;
+  color: #666666;
+  font-size: 11px;
+  float: left;
+}
+
+.head .head_1 p a {
+  text-decoration: none;
+  color: #0066ff;
+}
+
+.head .head_1 p a:hover {
+  color: red;
+}
+
+.head .head_1 .right {
+  float: right;
+}
+
+.head .head_1 .right li {
+  float: left;
+}
+
+.head .head_1 .right li a {
+  color: #333333;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.head .head_1 .right li:nth-of-type(1) {
+  position: relative;
+}
+.head .head_1 .right li:nth-of-type(1) div {
+  position: absolute;
+  border: 1px solid #c6002a;
+  border-top: none;
+  top: 30px;
+  left: -1px;
+  display: none;
+  background-color: white;
+  z-index: 2;
+}
+.head .head_1 .right li:nth-of-type(1) div em {
+  font-style: normal;
+}
+.head .head_1 .right li:nth-of-type(1) div em a {
+  text-decoration: none;
+  display: block;
+  width: 48px;
+}
+.head .head_1 .right li:nth-of-type(1) div em a:hover {
+  text-decoration: underline;
+  background: wheat;
+  color: black;
+}
+.head .head_1 .right li:nth-of-type(1):hover {
+  border-left: 1px solid #c6002a;
+  border-right: 1px solid #c6002a;
+  background-color: white;
+}
+.head .head_1 .right li:nth-of-type(1):hover a {
+  border: none;
+}
+.head .head_1 .right li:nth-of-type(1):hover div {
+  display: block;
+}
+
+.head .head_1 .right li:nth-of-type(1) a {
+  padding-right: 23px;
+  background: url(../images/1.jpg) no-repeat 55px 7px;
+  border-right: 1px solid #cccccc;
+}
+
+.head .head_1 .right li:nth-of-type(1) div a {
+  border-right: none;
+  background: none;
+}
+
+.head .head_1 .right li:nth-of-type(2) a {
+  padding: 18px;
+}
+
+.head .head_1 .right li:nth-of-type(3) a {
+  padding: 9px;
+}
+
+.head .head_1 .right li:nth-of-type(4) a {
+  padding-left: 21px;
+  background: url(../images/2.jpg) no-repeat 7px 3px;
+  border-left: 1px solid #cccccc;
+  color: #666666;
+}
+
+.header .header_1 {
+  margin: 0 auto;
+  width: 1200px;
+  overflow: hidden;
+}
+
+.header .header_1 img {
+  margin: 14px 0px 0px 5px;
+  float: left;
+}
+
+.header .header_1 .search {
+  float: left;
+  margin: 38px 0px 0px 68px;
+}
+
+.header .header_1 .search input {
+  width: 350px;
+  height: 28px;
+  border: 1px solid #ffc400;
+  outline-style: none;
+  text-indent: 3px;
+  display: block;
+  float: left;
+}
+
+.header .header_1 .search button {
+  display: block;
+  float: left;
+  width: 80px;
+  height: 30px;
+  background: #ffc400;
+  border: 1px solid #ffc400;
+  outline-style: none;
+}
+
+.nav {
+  width: 100%;
+  background: #ffc400;
+  margin-top: 21px;
+  overflow: hidden;
+}
+
+.nav .nav_1 {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.nav .nav_1 .all {
+  line-height: 40px;
+  font-size: 16px;
+  color: black;
+  margin: 0 40px;
+  float: left;
+}
+
+.nav .nav_1 .all p {
+  float: left;
+}
+
+.nav .nav_1 p a {
+  padding: 0 15px;
+  line-height: 40px;
+  color: black;
+  font-size: 15px;
+  display: block;
+  float: left;
+}
+
+.nav .nav_1 p a:hover {
+  background: gray;
+  color: white;
+}
+
+.nav .nav_1 p a:nth-of-type(5) {
+  position: relative;
+}
+
+.nav .nav_1 p a:nth-of-type(5) img {
+  position: absolute;
+  left: 70px;
+  top: -0px;
+}
+
+.nav .nav_1 .buys {
+  float: right;
+  width: 191px;
+  height: 24px;
+  margin: 7px 19px 0px 0px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.nav .nav_1 .buys a:nth-of-type(1) {
+  width: 122px;
+  height: 24px;
+  background: white;
+  display: block;
+  float: left;
+  color: black;
+  font-size: 13px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.nav .nav_1 .buys a:nth-of-type(2) {
+  width: 69px;
+  height: 24px;
+  background: #ffde00;
+  display: block;
+  float: left;
+  color: black;
+  font-size: 13px;
+  line-height: 24px;
+  text-align: center;
+}
+
+#banner {
+  margin-top: 10px;
+  width: 100%;
+  height: 479px;
+  position: relative;
+  overflow: hidden;
+}
+
+#banner img {
+  z-index: 0;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  left: -274px;
+}
+
+#banner #small {
+  position: absolute;
+  z-index: 2;
+  top: 451px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+}
+
+#banner #small li {
+  width: 42px;
+  height: 11px;
+  background: #666869;
+  float: left;
+  margin: 0 1px;
+  cursor: pointer;
+}
+
+#banner span {
+  width: 35px;
+  height: 50px;
+  line-height: 45px;
+  font-size: 40px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 265px;
+  background: black;
+  opacity: 0.7;
+  cursor: pointer;
+  font-weight: bold;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  display: none;
+}
+
+#banner #rtBtn {
+  right: 302px;
+  left: auto;
+}
+
+#banner .lt_nav {
+  position: absolute;
+  top: 0px;
+  left: 73px;
+  z-index: 3;
+  height: 479px;
+  width: 192px;
+  background: #f6f6f6;
+}
+
+#banner .lt_nav ul li {
+  line-height: 32px;
+  text-align: center;
+  font-size: 12px;
+}
+#banner .lt_nav ul li a {
+  color: black;
+}
+
+#banner .lt_nav ul li:nth-of-type(1) {
+  background: url(../images/tbut15.png) no-repeat 38px 6px;
+}
+
+#banner .lt_nav ul li:nth-of-type(2) {
+  background: url(../images/tbut1.png) no-repeat 38px 6px;
+}
+
+#banner .lt_nav ul li:nth-of-type(3) {
+  background: url(../images/tbut2.png) no-repeat 38px 6px;
+}
+
+#banner .lt_nav ul li:nth-of-type(4) {
+  background: url(../images/tbut3.png) no-repeat 38px 6px;
+}
+
+#banner .lt_nav ul li:nth-of-type(5) {
+  background: url(../images/tbut4.png) no-repeat 38px 6px;
+}
+
+#banner .lt_nav ul li:nth-of-type(6) {
+  background: url(../images/tbut5.png) no-repeat 38px 6px;
+}
+
+#banner .lt_nav ul li:nth-of-type(7) {
+  background: url(../images/tbut6.png) no-repeat 38px 6px;
+}
+
+#banner .lt_nav ul li:nth-of-type(8) {
+  background: url(../images/tbut7.png) no-repeat 38px 6px;
+}
+
+#banner .lt_nav ul li:nth-of-type(9) {
+  background: url(../images/tbut8.png) no-repeat 38px 6px;
+}
+
+#banner .lt_nav ul li:nth-of-type(10) {
+  background: url(../images/tbut9.png) no-repeat 38px 6px;
+}
+
+#banner .lt_nav ul li:nth-of-type(11) {
+  background: url(../images/tbut10.png) no-repeat 38px 6px;
+}
+
+#banner .lt_nav ul li:nth-of-type(12) {
+  background: url(../images/tbut11.png) no-repeat 38px 6px;
+}
+
+#banner .lt_nav ul li:nth-of-type(13) {
+  background: url(../images/tbut12.png) no-repeat 38px 6px;
+}
+
+#banner .lt_nav ul li:nth-of-type(14) {
+  background: url(../images/tbut13.png) no-repeat 38px 6px;
+}
+
+#banner .lt_nav ul li:nth-of-type(15) {
+  background: url(../images/tbut14.png) no-repeat 38px 6px;
+}
+
+#banner .lt_nav ul li:hover {
+  background-color: white;
+}
+#banner .lt_nav ul li:hover a {
+  color: orange;
+}
+
+#banner .rt_nav {
+  position: absolute;
+  top: 0px;
+  right: 74px;
+  left: auto;
+  z-index: 3;
+  height: 479px;
+  width: 227px;
+  background: url(../images/lb_8.jpg) no-repeat 0 179px;
+  background-color: white;
+}
+
+#banner .rt_nav p {
+  height: 39px;
+  width: 227px;
+  border-bottom: 1px solid #e0e0e0;
+  background: url(../images/lis.jpg) no-repeat 77px 11px;
+}
+
+#banner .rt_nav p a {
+  color: black;
+  line-height: 39px;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+  width: 228px;
+}
+
+#banner .rt_nav p a:hover {
+  color: red;
+}
+
+#banner .rt_nav ul {
+  margin: 23px 0px 0px 24px;
+}
+
+#banner .rt_nav ul li a {
+  color: red;
+  font-size: 12px;
+  line-height: 21px;
+}
+
+#banner .rt_nav ul li:nth-of-type(4) a, #banner .rt_nav ul li:nth-of-type(5) a {
+  color: black;
+}
+
+#banner .rt_nav ul li:nth-of-type(4) a:hover {
+  color: red;
+}
+
+#banner .rt_nav ul li:nth-of-type(5) a:hover {
+  color: red;
+}
+
+.second {
+  width: 100%;
+  background-color: #fafafa;
+  overflow: hidden;
+}
+
+.second .second_1 {
+  width: 1200px;
+  height: 273px;
+  margin: 0 auto;
+  background: white;
+  margin-top: 20px;
+  position: relative;
+}
+
+.second .second_1 .miao {
+  margin-top: 5px;
+  float: left;
+}
+
+.second .second_1 span {
+  width: 38px;
+  height: 38px;
+  border-radius: 5px;
+  position: absolute;
+  background: black;
+  top: 171px;
+  color: white;
+  line-height: 38px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.second .second_1 span:nth-of-type(1) {
+  left: 20px;
+}
+
+.second .second_1 span:nth-of-type(2) {
+  left: 74px;
+}
+
+.second .second_1 span:nth-of-type(3) {
+  left: 127px;
+}
+
+.second .second_1 .shop {
+  float: left;
+  margin-top: 5px;
+}
+
+.second .second_1 .shop li {
+  float: left;
+  width: 201px;
+  height: 267px;
+  border-right: 1px solid #fafafa;
+}
+
+.second .second_1 .shop li .a {
+  width: 150px;
+  height: 150px;
+  margin: 8px 0px 0px 26px;
+}
+
+.second .second_1 .shop li a:nth-of-type(2) p {
+  font-size: 13px;
+  margin: 28px 0px 0px 0px;
+  text-align: center;
+  color: black;
+}
+
+.second .second_1 .shop li a:nth-of-type(3) p {
+  color: #cccccc;
+  font-size: 10px;
+  text-align: center;
+}
+
+.second .second_1 .shop li .b {
+  margin-top: 12px;
+  margin-left: 8px;
+}
+
+.second .second_1 .shop li a:nth-of-type(4) {
+  position: relative;
+  display: block;
+}
+
+.second .second_1 .shop li a:nth-of-type(5) {
+  margin-left: 8px;
+  display: block;
+  position: absolute;
+  z-index: 2;
+  top: 243px;
+  text-indent: 7px;
+  font-size: 16px;
+  font-weight: bolder;
+  color: white;
+}
+
+.second .second_1 .shop li a:nth-of-type(5) del {
+  font-size: 11px;
+}
+
+.phone {
+  width: 100%;
+  background: #fafafa;
+  overflow: hidden;
+}
+.phone img {
+  transition: 1s;
+}
+.phone img:hover {
+  transform: scale(1.05);
+  opacity: 0.6;
+}
+.phone .phone_1 {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+.phone .phone_1 .title {
+  margin-top: 13px;
+  display: block;
+  transform: none;
+}
+.phone .phone_1 .t_nav {
+  position: absolute;
+  right: 0;
+  top: 28px;
+}
+.phone .phone_1 .t_nav a {
+  margin: 0 12px;
+  color: black;
+  font-size: 12px;
+}
+.phone .phone_1 .t_nav a:hover {
+  color: red;
+}
+.phone .phone_1 .ph_lt {
+  float: left;
+}
+.phone .phone_1 .ph_lt .cover {
+  float: left;
+  display: block;
+  transform: none;
+}
+.phone .phone_1 .ph_lt .ph_lt_rt {
+  float: left;
+}
+.phone .phone_1 .ph_lt .ph_lt_rt img {
+  display: block;
+  transform: none;
+}
+.phone .phone_1 .ph_rt {
+  float: left;
+  background: white;
+}
+.phone .phone_1 .ph_rt ul {
+  margin-left: 2px;
+  overflow: hidden;
+  width: 599px;
+}
+.phone .phone_1 .ph_rt ul li {
+  width: 199px;
+  border-left: 1px solid #fafafa;
+  float: left;
+  border-bottom: 1px solid #fafafa;
+}
+.phone .phone_1 .ph_rt ul li img {
+  margin-left: 25px;
+  margin-top: 4px;
+  width: 150px;
+  height: 150px;
+}
+.phone .phone_1 .ph_rt ul li:nth-of-type(1) {
+  border-left: none;
+}
+.phone .phone_1 .ph_rt ul li p {
+  font-size: 12px;
+  color: black;
+  text-align: center;
+  margin-top: 9px;
+}
+.phone .phone_1 .ph_rt ul li span {
+  display: block;
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 3px;
+}
+.phone .phone_1 .ph_bottom li {
+  width: 150px;
+  float: left;
+  position: relative;
+}
+.phone .phone_1 .ph_bottom li span {
+  width: 11px;
+  height: 10px;
+  background: url(../images/love.png) no-repeat;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: none;
+}
+.phone .phone_1 .ph_bottom li img {
+  transform: none;
+  display: block;
+}
+.phone .phone_1 .ph_bottom li img:hover {
+  opacity: 0.5;
+}
+.phone .phone_1 .ph_bottom li:hover span {
+  display: block;
+}
+
+.xian {
+  width: 100%;
+  height: 20px;
+  background: #fafafa;
+}
+
+.bottom {
+  width: 100%;
+  background: white;
+  overflow: hidden;
+}
+.bottom .bottom_1 {
+  padding-top: 66px;
+  width: 972px;
+  margin-left: 193px;
+}
+.bottom .bottom_1 .bt_lt {
+  width: 272px;
+  height: 151px;
+  background: white;
+  float: left;
+}
+.bottom .bottom_1 .bt_lt p {
+  color: #999999;
+  font-size: 11px;
+}
+.bottom .bottom_1 .bt_lt p span {
+  color: black;
+  font-size: 12px;
+}
+.bottom .bottom_1 .bt_lt p:nth-of-type(1) {
+  margin-top: 27px;
+  margin-left: 26px;
+}
+.bottom .bottom_1 .bt_lt p:nth-of-type(2) {
+  margin-top: 13px;
+  margin-left: 26px;
+}
+.bottom .bottom_1 .bt_lt p:nth-of-type(3) {
+  margin-top: 10px;
+  margin-left: 102px;
+}
+.bottom .bottom_1 .bt_lt p:nth-of-type(3) span {
+  color: #ff7900;
+}
+.bottom .bottom_1 .bt_lt p:nth-of-type(4) {
+  margin-top: 10px;
+  margin-left: 138px;
+}
+.bottom .bottom_1 .bt_lt p:nth-of-type(4) span {
+  color: #ff7900;
+}
+.bottom .bottom_1 .bt_rt {
+  float: left;
+}
+.bottom .bottom_1 .bt_rt li {
+  width: 139px;
+  height: 151px;
+  border-left: 1px solid #dddddd;
+  float: left;
+}
+.bottom .bottom_1 .bt_rt li a {
+  display: block;
+  font-size: 11px;
+  color: #999999;
+  line-height: 18px;
+  margin-left: 15px;
+}
+.bottom .bottom_1 .bt_rt li a:hover {
+  color: blue;
+}
+.bottom .bottom_1 .bt_rt li a:nth-of-type(1) {
+  color: black;
+  font-size: 12px;
+  line-height: 25px;
+  margin-bottom: 3px;
+}
+.bottom .bottom_1 .bt_rt li a:nth-of-type(1):hover {
+  color: black;
+}
+.bottom .bottom_1 .bt_bt {
+  margin-top: 25px;
+  float: left;
+}
+.bottom .bottom_1 .bt_bt p {
+  font-size: 11px;
+  line-height: 23px;
+  color: #999999;
+}
+.bottom .bottom_1 .bt_bt p:nth-of-type(1) {
+  font-size: 12px;
+  color: black;
+}
+.bottom .bottom_1 .bt_bt p:nth-of-type(4) {
+  margin-bottom: 23px;
+}
+.bottom .bottom_1 .bt_bt p span {
+  margin-right: 19px;
+}
+.bottom .bottom_1 .bt_bt p a {
+  color: #999999;
+}
+.bottom .bottom_1 .bt_bt p a:hover {
+  color: blue;
+}
+.bottom .bottom_1 .govIcon {
+  width: 37px;
+  height: 50px;
+  float: right;
+  margin-top: 25px;
+}
+
+.fix {
+  position: fixed;
+  display: none;
+  top: 40px;
+  right: 5px;
+}
+.fix img {
+  position: relative;
+}
+.fix span {
+  position: absolute;
+  display: block;
+  width: 59px;
+  height: 59px;
+  cursor: pointer;
+}
+.fix #dingbu {
+  top: 0px;
+}
+.fix #miaosha {
+  top: 59px;
+}
+.fix #stopping {
+  top: 118px;
+}
+
+#s {
+  font-style: normal;
+  color: red;
+}
+
+/*# sourceMappingURL=index.css.map */

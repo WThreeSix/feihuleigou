@@ -1,0 +1,487 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.head {
+  background: #ededed;
+  width: 100%;
+  height: 30px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.head .head_1 {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.head .head_1 p {
+  line-height: 30px;
+  color: #666666;
+  font-size: 11px;
+  float: left;
+}
+
+.head .head_1 p a {
+  text-decoration: none;
+  color: #0066ff;
+}
+
+.head .head_1 p a:hover {
+  color: red;
+}
+
+.head .head_1 .right {
+  float: right;
+}
+
+.head .head_1 .right li {
+  float: left;
+}
+
+.head .head_1 .right li a {
+  color: #333333;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.head .head_1 .right li:nth-of-type(1) {
+  position: relative;
+}
+.head .head_1 .right li:nth-of-type(1) div {
+  position: absolute;
+  border: 1px solid #c6002a;
+  border-top: none;
+  top: 30px;
+  left: -1px;
+  display: none;
+  background-color: white;
+  z-index: 2;
+}
+.head .head_1 .right li:nth-of-type(1) div em {
+  font-style: normal;
+}
+.head .head_1 .right li:nth-of-type(1) div em a {
+  text-decoration: none;
+  display: block;
+  width: 48px;
+}
+.head .head_1 .right li:nth-of-type(1) div em a:hover {
+  text-decoration: underline;
+  background: wheat;
+  color: black;
+}
+.head .head_1 .right li:nth-of-type(1):hover {
+  border-left: 1px solid #c6002a;
+  border-right: 1px solid #c6002a;
+  background-color: white;
+}
+.head .head_1 .right li:nth-of-type(1):hover a {
+  border: none;
+}
+.head .head_1 .right li:nth-of-type(1):hover div {
+  display: block;
+}
+
+.head .head_1 .right li:nth-of-type(1) a {
+  padding-right: 23px;
+  background: url(../images/1.jpg) no-repeat 55px 7px;
+  border-right: 1px solid #cccccc;
+}
+
+.head .head_1 .right li:nth-of-type(1) div a {
+  border-right: none;
+  background: none;
+}
+
+.head .head_1 .right li:nth-of-type(2) a {
+  padding: 18px;
+}
+
+.head .head_1 .right li:nth-of-type(3) a {
+  padding: 9px;
+}
+
+.head .head_1 .right li:nth-of-type(4) a {
+  padding-left: 21px;
+  background: url(../images/2.jpg) no-repeat 7px 3px;
+  border-left: 1px solid #cccccc;
+  color: #666666;
+}
+
+.header {
+  overflow: hidden;
+}
+.header img:nth-of-type(1) {
+  display: block;
+  float: left;
+  margin: 14px 0 0 91px;
+}
+.header img:nth-of-type(2) {
+  display: block;
+  float: left;
+  margin: 35px 0 0 16px;
+}
+
+.stoplist {
+  width: 100%;
+}
+.stoplist .stop_list {
+  width: 1200px;
+  margin: 0 auto;
+}
+.stoplist .stop_list h6 {
+  font-size: 16px;
+  line-height: 62px;
+}
+.stoplist .stop_list .title {
+  overflow: hidden;
+  border-top: 2px  solid #c7012c;
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+.stoplist .stop_list .title ul li {
+  float: left;
+}
+.stoplist .stop_list .title ul li:nth-of-type(1) {
+  width: 60px;
+  line-height: 35px;
+  border-right: 1px solid #dddddd;
+  text-align: center;
+  font-size: 12px;
+  color: #666666;
+}
+.stoplist .stop_list .title ul li:nth-of-type(1) input {
+  width: 13px;
+  height: 13px;
+  margin-right: 2px;
+}
+.stoplist .stop_list .title ul li:nth-of-type(2) {
+  width: 219px;
+  border-right: 1px solid #dddddd;
+  text-align: center;
+  line-height: 35px;
+  font-size: 14px;
+  color: #cc0000;
+}
+.stoplist .stop_list .title ul li:nth-of-type(3) {
+  width: 396px;
+  border-right: 1px solid #dddddd;
+  text-align: center;
+  line-height: 35px;
+  font-size: 12px;
+  color: #666666;
+}
+.stoplist .stop_list .title ul li:nth-of-type(4) {
+  width: 130px;
+  border-right: 1px solid #dddddd;
+  text-align: center;
+  line-height: 35px;
+  font-size: 12px;
+  color: #666666;
+}
+.stoplist .stop_list .title ul li:nth-of-type(5) {
+  width: 148px;
+  border-right: 1px solid #dddddd;
+  text-align: center;
+  line-height: 35px;
+  font-size: 12px;
+  color: #666666;
+}
+.stoplist .stop_list .title ul li:nth-of-type(6) {
+  width: 127px;
+  border-right: 1px solid #dddddd;
+  text-align: center;
+  line-height: 35px;
+  font-size: 12px;
+  color: #666666;
+}
+.stoplist .stop_list .title ul li:nth-of-type(7) {
+  width: 110px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 12px;
+  color: #666666;
+}
+.stoplist .stop_list .stopmess {
+  overflow: hidden;
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+.stoplist .stop_list .stopmess ul {
+  overflow: hidden;
+  border-bottom: 1px solid #dddddd;
+}
+.stoplist .stop_list .stopmess ul li {
+  padding-top: 15px;
+  float: left;
+}
+.stoplist .stop_list .stopmess ul li:nth-of-type(1) {
+  width: 60px;
+  line-height: 35px;
+  text-align: center;
+  font-size: 12px;
+  color: #666666;
+}
+.stoplist .stop_list .stopmess ul li:nth-of-type(1) input {
+  width: 13px;
+  height: 13px;
+  margin-right: 2px;
+}
+.stoplist .stop_list .stopmess ul li:nth-of-type(2) {
+  width: 219px;
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  text-align: center;
+  line-height: 35px;
+  font-size: 14px;
+  color: #cc0000;
+  padding: 10px 0px;
+}
+.stoplist .stop_list .stopmess ul li:nth-of-type(3) {
+  width: 397px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 12px;
+  color: #666666;
+}
+.stoplist .stop_list .stopmess ul li:nth-of-type(4) {
+  width: 131px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 12px;
+  color: #666666;
+}
+.stoplist .stop_list .stopmess ul li:nth-of-type(5) {
+  width: 149px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 12px;
+  color: #666666;
+}
+.stoplist .stop_list .stopmess ul li:nth-of-type(6) {
+  width: 128px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 12px;
+  color: #666666;
+}
+.stoplist .stop_list .stopmess ul li:nth-of-type(7) {
+  width: 110px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 12px;
+  color: #666666;
+}
+.stoplist .stop_list .stopmess .blank {
+  line-height: 85px;
+  text-align: center;
+  display: none;
+}
+.stoplist .stop_list .btm {
+  overflow: hidden;
+  width: 1198px;
+  line-height: 55px;
+  color: red;
+  font-size: 11px;
+  border: 1px solid #dddddd;
+  border-top: none;
+}
+.stoplist .stop_list .btm p:nth-of-type(1) {
+  float: left;
+}
+.stoplist .stop_list .btm p:nth-of-type(2) {
+  font-size: 18px;
+  color: black;
+  margin-right: 80px;
+  float: right;
+}
+.stoplist .stop_list .btm p:nth-of-type(2) span {
+  color: red;
+}
+.stoplist .stop_list .list {
+  width: 109px;
+  height: 34px;
+  border: 1px solid #cccccc;
+  background: #f8f8f8;
+  float: left;
+  margin: 10px 20px 0px 783px;
+  border-radius: 5px;
+}
+.stoplist .stop_list .list a {
+  line-height: 34px;
+  text-align: center;
+  font-size: 12px;
+  color: #666666;
+  display: block;
+}
+.stoplist .stop_list .suan {
+  width: 190px;
+  height: 44px;
+  border: 1px solid #cccccc;
+  background: orange;
+  border-radius: 5px;
+  float: right;
+  margin: 5px 10px 0px 0px;
+}
+.stoplist .stop_list .suan a {
+  line-height: 44px;
+  text-align: center;
+  font-size: 17px;
+  color: white;
+  display: block;
+}
+.stoplist .stop_list .clear_1 {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #666666;
+  cursor: pointer;
+  float: left;
+}
+
+.goodInfo li input {
+  width: 30px;
+  text-align: center;
+}
+
+.goodInfo li.num a {
+  display: inline-block;
+  width: 10px;
+  height: 20px;
+  font: 12px/20px "";
+  background: #ddd;
+  text-decoration: none;
+}
+
+.bottom {
+  width: 100%;
+  background: white;
+  overflow: hidden;
+}
+.bottom .bottom_1 {
+  padding-top: 66px;
+  width: 972px;
+  margin-left: 193px;
+}
+.bottom .bottom_1 .bt_lt {
+  width: 272px;
+  height: 151px;
+  background: white;
+  float: left;
+}
+.bottom .bottom_1 .bt_lt p {
+  color: #999999;
+  font-size: 11px;
+}
+.bottom .bottom_1 .bt_lt p span {
+  color: black;
+  font-size: 12px;
+}
+.bottom .bottom_1 .bt_lt p:nth-of-type(1) {
+  margin-top: 27px;
+  margin-left: 26px;
+}
+.bottom .bottom_1 .bt_lt p:nth-of-type(2) {
+  margin-top: 13px;
+  margin-left: 26px;
+}
+.bottom .bottom_1 .bt_lt p:nth-of-type(3) {
+  margin-top: 10px;
+  margin-left: 102px;
+}
+.bottom .bottom_1 .bt_lt p:nth-of-type(3) span {
+  color: #ff7900;
+}
+.bottom .bottom_1 .bt_lt p:nth-of-type(4) {
+  margin-top: 10px;
+  margin-left: 138px;
+}
+.bottom .bottom_1 .bt_lt p:nth-of-type(4) span {
+  color: #ff7900;
+}
+.bottom .bottom_1 .bt_rt {
+  float: left;
+}
+.bottom .bottom_1 .bt_rt li {
+  width: 139px;
+  height: 151px;
+  border-left: 1px solid #dddddd;
+  float: left;
+}
+.bottom .bottom_1 .bt_rt li a {
+  display: block;
+  font-size: 11px;
+  color: #999999;
+  line-height: 18px;
+  margin-left: 15px;
+}
+.bottom .bottom_1 .bt_rt li a:hover {
+  color: blue;
+}
+.bottom .bottom_1 .bt_rt li a:nth-of-type(1) {
+  color: black;
+  font-size: 12px;
+  line-height: 25px;
+  margin-bottom: 3px;
+}
+.bottom .bottom_1 .bt_rt li a:nth-of-type(1):hover {
+  color: black;
+}
+.bottom .bottom_1 .bt_bt {
+  margin-top: 25px;
+  float: left;
+}
+.bottom .bottom_1 .bt_bt p {
+  font-size: 11px;
+  line-height: 23px;
+  color: #999999;
+}
+.bottom .bottom_1 .bt_bt p:nth-of-type(1) {
+  font-size: 12px;
+  color: black;
+}
+.bottom .bottom_1 .bt_bt p:nth-of-type(4) {
+  margin-bottom: 23px;
+}
+.bottom .bottom_1 .bt_bt p span {
+  margin-right: 19px;
+}
+.bottom .bottom_1 .bt_bt p a {
+  color: #999999;
+}
+.bottom .bottom_1 .bt_bt p a:hover {
+  color: blue;
+}
+.bottom .bottom_1 .govIcon {
+  width: 37px;
+  height: 50px;
+  float: right;
+  margin-top: 25px;
+}
+
+#fix {
+  display: none;
+  width: 20px;
+  height: 70px;
+  border-radius: 1px;
+  position: fixed;
+  right: 45px;
+  bottom: 80px;
+  cursor: pointer;
+  background: url(../images/list/top.png) no-repeat;
+}
+#fix:hover {
+  background: url(../images/list/top.png) no-repeat 0px -70px;
+}
+
+/*# sourceMappingURL=buycar.css.map */

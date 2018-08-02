@@ -1,0 +1,124 @@
+.content .content_1 .big_tb {
+  width: 547px;
+  height: 433px;
+  border: 2px solid #eedfbb;
+  float: right;
+  margin-top: 30px;
+}
+.content .content_1 .big_tb h3 {
+  display: block;
+  font-size: 12px;
+  line-height: 31px;
+  text-indent: 10px;
+  background: url(../images/register/titleBG.png);
+}
+.content .content_1 .big_tb .small_tb {
+  position: relative;
+  width: 545px;
+  height: 400px;
+  border: 1px solid #C6002A;
+  background-color: white;
+}
+.content .content_1 .big_tb .small_tb .ness {
+  margin: 14px 0px 0px 10px;
+  font-size: 12px;
+  color: #999999;
+}
+.content .content_1 .big_tb .small_tb .ness span {
+  color: red;
+}
+.content .content_1 .big_tb .small_tb input {
+  width: 180px;
+  height: 22px;
+  border: 1px  solid #cccccc;
+  outline: none;
+  margin-top: 10px;
+}
+.content .content_1 .big_tb .small_tb span {
+  font-size: 12px;
+  color: #666666;
+}
+.content .content_1 .big_tb .small_tb span i {
+  font-style: normal;
+  color: red;
+}
+.content .content_1 .big_tb .small_tb .a {
+  margin-left: 40px;
+}
+.content .content_1 .big_tb .small_tb .b {
+  margin-left: 52px;
+}
+.content .content_1 .big_tb .small_tb .c {
+  margin-left: 28px;
+}
+.content .content_1 .big_tb .small_tb .d {
+  margin-left: 52px;
+}
+.content .content_1 .big_tb .small_tb .e {
+  margin-left: 50px;
+}
+.content .content_1 .big_tb .small_tb .f {
+  margin-left: 38px;
+}
+.content .content_1 .big_tb .small_tb .g {
+  margin-left: 40px;
+}
+.content .content_1 .big_tb .small_tb #show {
+  width: 61px;
+  height: 18px;
+  border: 1px solid black;
+  display: block;
+  margin: 5px 0px 0px 97px;
+  float: left;
+}
+.content .content_1 .big_tb .small_tb #change {
+  font-size: 12px;
+  color: blue;
+  display: block;
+  text-decoration: underline;
+  margin: 8px 0px 0px 4px;
+  float: left;
+}
+.content .content_1 .big_tb .small_tb #change:hover {
+  color: red;
+}
+.content .content_1 .big_tb .small_tb #h {
+  position: absolute;
+  bottom: 80px;
+  left: 97px;
+  width: 15px;
+  height: 15px;
+}
+.content .content_1 .big_tb .small_tb .j {
+  position: absolute;
+  bottom: 80px;
+  left: 114px;
+}
+.content .content_1 .big_tb .small_tb .j a {
+  color: blue;
+  text-decoration: underline;
+}
+.content .content_1 .big_tb .small_tb .j a:hover {
+  color: red;
+}
+.content .content_1 .big_tb .small_tb .btn {
+  position: absolute;
+  bottom: 29px;
+  left: 97px;
+  width: 140px;
+  height: 40px;
+  display: block;
+  border-radius: 3px;
+  background: url(../images/register/registe.png) no-repeat 0px 0px;
+  float: left;
+}
+.content .content_1 .big_tb .small_tb .btn:hover {
+  background: url(../images/register/registe.png) no-repeat 0px -40px;
+}
+
+#show {
+  text-align: center;
+  color: #C6002A;
+}
+
+/*# sourceMappingURL=register.css.map */

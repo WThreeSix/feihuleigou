@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>飞虎乐购-注册</title>
+		<link href="images/favicon.ico" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+		<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+	</head>
+	<body>
+		<div class="head">
+			<div class="head_1">
+				<p>你好，欢迎来到飞虎乐购！
+					<a href="login.html">安全登录</a> 还没加入我们？
+					<a href="register.html">立即注册</a>
+				</p>
+				<ul class="right">
+					<li>
+						<a href="">我的账户</a><span></span>
+						<div>
+							<em><a href="index.html">账户首页</a></em>
+							<em><a href="">我的收藏</a></em>
+							<em><a href="">我的订单</a></em>
+						</div>
+					</li>
+					<li>
+						<a href="#">帮助中心</a>
+					</li>
+					<li>
+						<a href="#">网站体验反馈</a>
+					</li>
+					<li>
+						<a href="#">400 883 6900</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--注册列表-->
+		<div class="content">
+			<div class="content_1">
+				<img src="images/register/login_logo.jpg" alt="" />
+				<div class="big_tb">
+					<h3>用户注册</h3>
+					<form action="" class="small_tb">
+						<p class="ness">您尚未注册 : <span id="message">请填写注册信息，带有*号的为必填项。</span></p>
+						<span class="a"><i>*</i> 用户名：</span><input type="text" id="user" name="user"/><br/>
+						<span class="b"><i>*</i> 密码：</span><input type="password" id="password" name="password"/></br>
+						<span class="c"><i>*</i> 确认密码：</span><input type="password" id="repass" name="repass"/></br>
+						<span class="d"><i>*</i> 邮箱：</span><input type="text" id="email" name="email"/></br>
+						<span class="e">推介人：</span><input type="text" id="people" name="people"/></br>
+						<span class="f">活动代码：</span><input type="text" id="code" name="code"/></br>
+						<span class="g"><i>*</i> 验证码：</span><input type="text" id="security" name="security"/></br>
+						<div><span id="show"></span><a href="#" id="change">换张图</a></br></div>
+						<input type="checkbox"  id="h" value="" />
+						<span class="j">我已阅读并同意<a href="http://www.efeihu.com/Pages/MemberCenter/Agreement.aspx">飞虎乐购用户协议</a></span>
+						<input class="btn" type="button" id="btn"></input>
+					</form>
+				</div>
+			</div>			
+		</div>
+		<!--底部-->
+		<div class="bottom">
+			<div class="bottom_1">
+				<div class="bt_bt">
+					<p><span>常见问题</span><span>法律说明</span><span>联系我们</span></p>	
+					<p>增值电信业务经营许可证:<a href="">粤B2-20130551</a> | 网站备案:<a href="">粤ICP备14036938号</a></p>	
+					<p>食品流通许可证：SP4403112014007826 | 食品流通许可证：SP1103021110002595</p>	
+					<p>Copyright &copy; 2009-2018 深圳市理约云信息管理有限公司.All Rights Reserved</p>	
+				</div>
+				<img src="images/govIcon.gif" alt=""class="govIcon" />
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		var user1 = false;
+		$('#user').blur(function(){
+			if ( !/^([A-z]|_)\w{3,7}$/.test(user.value)){
+				$("#message").html("只能输入4-8位英文数字下划线");
+				$("#message").css("color","red");
+			}else{
+				user1 = true;
+				$("#message").html("用户名合法，请设置密码");
+				$("#message").css("color","black");
+			}
+		})
+		console.log()
+		var pass1 = false;
+		$('#password').blur(function(){
+			if ( !/^.{6}$/.test(password.value)){
+				$("#message").html("密码必须为六位数");
+				$("#message").css("color","red");
+			}else{
+				pass1 = true;
+				$("#message").html("密码合法，请再次输入密码");
+				$("#message").css("color","black");
+			}
+		})
+		var repass1 = false;
+		$('#repass').blur(function(){
+			if ( !/^.{6}$/.test(repass.value)){
+				$("#message").html("密码必须为六位数");
+				$("#message").css("color","red");
+			}else if(repass.value == password.value){
+				repass1 = true;
+				$("#message").html("两次密码输入一致");
+				$("#message").css("color","black");
+			}else{
+				$("#message").html("两次密码输入不一致");
+				$("#message").css("color","red");
+			}
+			
+		})
+		var email1 = false;
+		$('#email').blur(function(){
+			if ( !/^\w+@\w+(\.\w+)+$/.test(email.value)){
+				$("#message").html("邮箱格式错误");
+				$("#message").css("color","red");
+			}else{
+				email1 = true;
+				$("#message").html("合法邮箱");
+				$("#message").css("color","black");
+			}
+		})
+		var show = document.getElementById("show");
+		var security = document.getElementById("security");
+		show.innerHTML = tastcode(5);
+            var change = document.getElementById("change");
+            change.onclick = function(){
+//          	alert();
+            	var aaa = tastcode(5);
+                show.innerHTML = aaa;
+            }
+            function tastcode(n){
+                var arr = [];
+                for(var i = 0; i < n; i++){
+                    var num = parseInt(Math.random() * 100);
+                    if(num >= 0 && num <= 9){
+                        arr.push(num);
+                    }else if(num >= 65 && num <= 90){
+                        arr.push(String.fromCharCode(num));
+                    }else if(num >= 27 && num <= 52){
+                        arr.push(String.fromCharCode(num + 70));
+                    }else{
+                        i--;
+                    }
+                }
+                return arr.join("");
+            }
+            var sec1 = false;
+            security.onblur = function(){
+            	
+                var sec = security.value;
+                var pic = show.innerHTML;
+//              alert(sec);
+                if(sec === pic){
+                	sec1 = true;
+                    $("#message").html("验证码正确");
+					$("#message").css("color","black");
+                }else{
+                    $("#message").html("验证码错误，请重新输入");
+					$("#message").css("color","red");
+                }
+            }
+           
+            $("#btn").click(function(){
+//          	console.log(user1,pass1,repass1,email1,sec1,$('#h')[0].checked);
+            	if(user1 && pass1 && repass1 && email1 && sec1 && $('#h')[0].checked){
+	            	$.ajax({
+						type:"post",
+						url : 'php/register.php',
+						data : {
+							"user" : user.value,
+							"password" : password.value,
+							"email" : email.value,
+							"people" : people.value,
+							"code" :	code.value,
+							"security" : security.value
+						},
+//						async:true,
+						success : function(data){
+							
+							if(data == "注册成功"){
+								alert(data);
+								window.location.href = 'login.html';
+							}else if(data == "注册失败，该用户名已被注册！"){
+								alert(data);
+								window.location.href = 'register.html';
+							}else{
+								alert(data);
+							}
+							
+						}
+					});
+		        }else if(!$('#h')[0].checked){
+		        	console.log(user1,pass1,repass1,email1,sec1,$('#h')[0].checked);
+		        	alert("请同意用户协议！");
+		        }else{
+		        	console.log(user1,pass1,repass1,email1,sec1,$('#h')[0].checked);
+		        	
+		        	alert("信息有误或填选必填项，请重新输入！");
+		        	
+		        }
+	        })
+            
+	</script>
+</html>
